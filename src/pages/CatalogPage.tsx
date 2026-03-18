@@ -110,7 +110,7 @@ const CatalogPage = () => {
         </div>
         {filtered.length === 0 && (
           <div className="text-center py-20 text-muted-foreground">
-            No products found
+            {t('catalog.no_products')}
           </div>
         )}
       </div>

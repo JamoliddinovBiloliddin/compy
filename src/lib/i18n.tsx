@@ -54,6 +54,11 @@ const translations: Record<string, Record<Lang, string>> = {
   'common.search': { uz: 'Qidirish...', ru: 'Поиск...', en: 'Search...' },
   'theme.light': { uz: 'Yorug\'', ru: 'Светлая', en: 'Light' },
   'theme.dark': { uz: 'Qorong\'u', ru: 'Тёмная', en: 'Dark' },
+  'catalog.no_products': { uz: 'Hech qanday mahsulot topilmadi', ru: 'Продукты не найдены', en: 'No products found' },
+  'notfound.title': { uz: 'Voy! Sahifa topilmadi', ru: 'Упс! Страница не найдена', en: 'Oops! Page not found' },
+  'notfound.return': { uz: 'Bosh sahifaga qaytish', ru: 'Вернуться на главную', en: 'Return to Home' },
+  'common.min': { uz: 'min', ru: 'мин', en: 'min' },
+  'common.rec': { uz: 'tavsiya', ru: 'рек', en: 'rec' },
 };
 
 interface I18nContextType {

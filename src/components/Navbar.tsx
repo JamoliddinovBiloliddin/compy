@@ -22,7 +22,7 @@ export const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-border/50" role="navigation" aria-label="Main navigation">
+    <nav className="fixed top-0 left-0 right-0 z-50 glass-panel overflow-visible border-b border-border/50" role="navigation" aria-label="Main navigation">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2 font-display font-bold text-xl">
           <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">

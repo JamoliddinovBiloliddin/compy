@@ -89,7 +89,7 @@ export const ProductCard = ({ product, onCompare }: ProductCardProps) => {
 
       {/* RAM recommendation */}
       <div className="text-xs text-muted-foreground bg-secondary/50 rounded-lg px-3 py-1.5">
-        {t('common.ram')}: {product.recommended_ram_min}GB min / {product.recommended_ram_recommended}GB rec
+        {t('common.ram')}: {product.recommended_ram_min}GB {t('common.min')} / {product.recommended_ram_recommended}GB {t('common.rec')}
       </div>
 
       <p className="text-sm text-muted-foreground line-clamp-2">{product.short_description}</p>
