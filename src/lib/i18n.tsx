@@ -59,6 +59,9 @@ const translations: Record<string, Record<Lang, string>> = {
   'notfound.return': { uz: 'Bosh sahifaga qaytish', ru: 'Вернуться на главную', en: 'Return to Home' },
   'common.min': { uz: 'min', ru: 'мин', en: 'min' },
   'common.rec': { uz: 'tavsiya', ru: 'рек', en: 'rec' },
+  'common.cpu': { uz: 'CPU', ru: 'Процессор', en: 'CPU' },
+  'common.gpu': { uz: 'GPU', ru: 'Видеокарта', en: 'GPU' },
+  'common.fps': { uz: 'FPS', ru: 'FPS', en: 'FPS' },
 };
 
 interface I18nContextType {

@@ -147,8 +147,8 @@ const ComparePage = () => {
                 <div className="flex items-center gap-4 mb-4">
                   <div className="flex-1">
                     <div className="flex justify-between text-sm mb-1">
-                      <span>CPU: {cpu.model}</span>
-                      <span>{mainBottleneck.cpuFPS} FPS</span>
+                      <span>{t('common.cpu')}: {cpu.model}</span>
+                      <span>{mainBottleneck.cpuFPS} {t('common.fps')}</span>
                     </div>
                     <div className="h-3 rounded-full bg-secondary overflow-hidden">
                       <div
@@ -164,8 +164,8 @@ const ComparePage = () => {
                 <div className="flex items-center gap-4 mb-4">
                   <div className="flex-1">
                     <div className="flex justify-between text-sm mb-1">
-                      <span>GPU: {gpu.model}</span>
-                      <span>{mainBottleneck.gpuFPS} FPS</span>
+                      <span>{t('common.gpu')}: {gpu.model}</span>
+                      <span>{mainBottleneck.gpuFPS} {t('common.fps')}</span>
                     </div>
                     <div className="h-3 rounded-full bg-secondary overflow-hidden">
                       <div
@@ -201,9 +201,9 @@ const ComparePage = () => {
                     <tr className="border-b border-border">
                       <th className="text-left py-2 px-3 font-medium text-muted-foreground">{t('compare.resolution')}</th>
                       <th className="text-left py-2 px-3 font-medium text-muted-foreground">{t('compare.settings')}</th>
-                      <th className="text-center py-2 px-3 font-medium text-muted-foreground">Avg FPS</th>
-                      <th className="text-center py-2 px-3 font-medium text-muted-foreground">Min</th>
-                      <th className="text-center py-2 px-3 font-medium text-muted-foreground">Max</th>
+                      <th className="text-center py-2 px-3 font-medium text-muted-foreground">{t('common.fps')}</th>
+                      <th className="text-center py-2 px-3 font-medium text-muted-foreground">{t('common.min')}</th>
+                      <th className="text-center py-2 px-3 font-medium text-muted-foreground">{t('common.max')}</th>
                     </tr>
                   </thead>
                   <tbody>

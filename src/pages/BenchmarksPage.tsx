@@ -86,9 +86,9 @@ const BenchmarksPage = () => {
               </div>
 
               <div className="text-sm text-muted-foreground mb-3">
-                <p>CPU: {getName(bt.cpu_id)}</p>
-                <p>GPU: {getName(bt.gpu_id)}</p>
-                <p>RAM: {getName(bt.ram_id)}</p>
+                <p>{t('common.cpu')}: {getName(bt.cpu_id)}</p>
+                <p>{t('common.gpu')}: {getName(bt.gpu_id)}</p>
+                <p>{t('common.ram')}: {getName(bt.ram_id)}</p>
               </div>
 
               {/* FPS Bar */}
